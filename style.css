@@ -1,4 +1,27 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section,
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu-links ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  gap: 16px;
 }
